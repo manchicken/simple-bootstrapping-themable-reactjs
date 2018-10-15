@@ -3,8 +3,8 @@ import ReactDOM from "react-dom";
 import { withTheme } from 'emotion-theming';
 import { css } from 'react-emotion';
 
-export default withTheme(function Header(props) {
+export default withTheme(function Paragraph(props) {
   return (
-    <h1 className={css(props.theme.h1)}>{props.children}</h1>
+    <p className={css(props.theme.p)}>{props.children}</p>
   );
-})
+});
